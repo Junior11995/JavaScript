@@ -13,3 +13,9 @@
 // si podemos asignar una nueva cadena 
 cadena = "asignacion";
 console.log(cadena);
+
+// Recorrer cadena caracter
+
+for(let i = 0; i < cadena.length; i++ ){
+   console.log(cadena[i]);
+}
