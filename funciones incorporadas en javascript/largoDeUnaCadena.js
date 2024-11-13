@@ -10,4 +10,6 @@
  cadena[0] ="b";
  console.log(cadena[0]);
 
- 
+// si podemos asignar una nueva cadena 
+cadena = "asignacion";
+console.log(cadena);
