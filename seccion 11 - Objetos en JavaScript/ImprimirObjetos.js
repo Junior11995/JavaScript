@@ -23,6 +23,10 @@ for ( ImprimirObjeto in persona){
     console.log(persona[ImprimirObjeto]);
 }
 
+// Metodo Object.value 
+let MiArrayObject = Object.values(persona);
+console.log(MiArrayObject);
+
 // Usando la propiedad JSON 
 
 let ImprimirJson = JSON.stringify(persona);
