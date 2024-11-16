@@ -1,5 +1,5 @@
 // agregar funciones y metodos a un objeto
-
+// funcion o metodo es lo mismo
 let ciudad= {
     direccion: "San pedro de macoris",
     tamaño: 2,
