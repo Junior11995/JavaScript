@@ -22,4 +22,21 @@ class Persona{
     set apellido(apellido){
         this._apellido = apellido;
     }
+    get edad(){
+        return this._edad;
+    }
+    set edad(edad){
+        this._edad = edad;
+    }
+    toString(){
+        return `
+        ${this._idPersona}
+        ${this._nombre}
+        ${this._apellido}
+        ${this._edad}
+        `;
+    }
 }
+let persona1 = new Persona('#1','juan','valdez',35);
+persona1.nombre = 'martino';
+console.log(persona1.toString());
