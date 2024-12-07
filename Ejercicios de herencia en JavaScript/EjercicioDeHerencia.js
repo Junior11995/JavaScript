@@ -30,9 +30,9 @@ class Persona{
     }
     toString(){
         return `
-        ${this._idPersona}
-        ${this._nombre}
-        ${this._apellido}
+        ${this._idPersona}// esta forma de estructura se llama back slast 
+        ${this._nombre}// sirve para concatenar sin tener que usar +' '+
+        ${this._apellido}// y tambien se puede estructurar mejor el codigo
         ${this._edad}
         `;
     }
